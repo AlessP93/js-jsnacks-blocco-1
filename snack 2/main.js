@@ -1,9 +1,11 @@
 const nameOne = prompt("Inserisci un nome?");
-const nametwo = prompt("Inserisci un nome?");
-console.log(nameOne, nametwo)
+const nameTwo = prompt("Inserisci un nome?");
 
-if (nameOne > nameOne) {
-    console.log(nameOne);
+
+if (nameOne.length > nameTwo.length) {
+    console.log(nameOne, nameTwo);
+} else if (nameTwo.length > nameOne.length) {
+    console.log(nameTwo, nameOne);
 } else {
-    console.log(nametwo);
+    console.log("stessa lunghezza");
 }
