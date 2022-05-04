@@ -4,4 +4,6 @@ console.log(numberOne, numbertwo)
 
 if (numberOne > numbertwo) {
     console.log("ha vinto il numberOne")
-} 
+} else {
+    console.log("ha vinto il numberTwo")
+}
