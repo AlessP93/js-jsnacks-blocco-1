@@ -3,7 +3,7 @@
 let numero = number
 console.log(numero)
 // 1. chiedo 10 volte all utente di inserire un numero
-for (i = 0; i <= 10; i++) {
+for (i = 0; i < 10; i++) {
     numero = prompt("inserisci un numero")
 }
 
