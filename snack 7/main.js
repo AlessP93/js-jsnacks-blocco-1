@@ -3,19 +3,19 @@
 
 
 // creo un array di numeri interi 
-
-let array = ["1", "2", "3", "4", "5"];
+let array = [1, 2, 3, 4, 5];
+let total = 0;
 for (let i = 0; i < 5; i++) {
-    // SE 
-    if (array[i] % 2 === 1) {
-        console.log(array[i])
+    // SE gli elementi dentro array sono in posizione dispari
+    // ALLORA li sommo
+    if (i % 2 === 1) {
+        total = total + array[i];
     }
     //ALTRIMENTI SE
-    console.log(array.length);
+    console.log(total);
     
 }
 
 
 
 
-// fai la somma di tutti i numeri che sono in posizione dispari 
